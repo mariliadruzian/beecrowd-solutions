@@ -16,5 +16,4 @@ class Bee1002
         Console.WriteLine($"A={area.ToString("F4", CultureInfo.InvariantCulture)}");
         Console.ReadLine();
     }
-
 }
