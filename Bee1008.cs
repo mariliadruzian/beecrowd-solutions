@@ -15,7 +15,7 @@ class Bee1008
         double salario = horasTrabalhadas * valorHora;
 
         Console.WriteLine($"NUMBER = {numFuncionario}");
-        Console.WriteLine($"SALARY =  U$ {salario.ToString("F2", CultureInfo.InvariantCulture)}");
+        Console.WriteLine($"SALARY = U$ {salario.ToString("F2", CultureInfo.InvariantCulture)}");
         Console.ReadLine();
     }
 }
