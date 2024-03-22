@@ -9,16 +9,19 @@ class Bee1005
 {
     static void Main(string[] args)
     {
+        // Declaração de variáveis
         double A, B, media;
         double pesoA = 3.5;
         double pesoB = 7.5;
 
+        // Entrada
         A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
         B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
+        // Cálculo
         media = ((A * pesoA) + (B * pesoB)) / 11;
 
+        // Saída
         Console.WriteLine($"MEDIA = {media.ToString("F5", CultureInfo.InvariantCulture)}");
-        Console.ReadLine();
     }
 }
