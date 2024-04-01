@@ -9,7 +9,7 @@ class Bee1014
 {
     static void Main(string[] args)
     {
-        // Recebe os valores de distância e combustível gasto
+        // Recebe os valores de distância percorrida e o total de combustível gasto
         int x = int.Parse(Console.ReadLine());
         double y = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
