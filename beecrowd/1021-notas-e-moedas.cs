@@ -12,7 +12,7 @@ class Bee1021
         int nInteiro, nDecimal, resto;
         int notaCem, notaCinquenta, notaVinte, notaDez, notaCinco, notaDois, moedaUmReal, moedaCinquenta, moedaVinteECinco, moedaDez, moedaCinco, moedaUmCent;
 
-        // Entrada: A ideia aqui é ler a entrada do usuário e fazer um split através do ponto (.)
+        // Entrada: A ideia aqui é ler a entrada do usuário e fazer um split através do ponto
         // Logo, teremos dois valores armazenados no vetor, o inteiro e o decimal
         string[] vet = Console.ReadLine().Split('.');
         nInteiro = int.Parse(vet[0]);
