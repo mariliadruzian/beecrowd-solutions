@@ -10,10 +10,8 @@ class Bee1002
     static void Main(string[] args) 
     {
         double pi = 3.14159;
-        double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-        double area = Math.Pow(raio, 2) * pi;
-
-        Console.WriteLine($"A={area.ToString("F4", CultureInfo.InvariantCulture)}");
-        Console.ReadLine();
+        double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); // Entrada
+        double area = Math.Pow(raio, 2) * pi; // Cálculo
+        Console.WriteLine($"A={area.ToString("F4", CultureInfo.InvariantCulture)}"); // Saída
     }
 }
