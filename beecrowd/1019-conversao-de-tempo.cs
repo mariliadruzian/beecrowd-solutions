@@ -11,7 +11,7 @@ class Bee1019
         // Entrada
         int N = int.Parse(Console.ReadLine());
 
-        // Cálculo
+        // Conversão
         int horas = N / 3600;
         int resto = N % 3600;
         int minutos = resto / 60;
