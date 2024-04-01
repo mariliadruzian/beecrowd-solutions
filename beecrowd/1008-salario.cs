@@ -9,13 +9,16 @@ class Bee1008
 {
     static void Main(string[] args)
     {
+        // Entrada
         int numFuncionario = int.Parse(Console.ReadLine());
         int horasTrabalhadas = int.Parse(Console.ReadLine());
         double valorHora = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+        // Cálculo
         double salario = horasTrabalhadas * valorHora;
 
+        // Saída
         Console.WriteLine($"NUMBER = {numFuncionario}");
         Console.WriteLine($"SALARY = U$ {salario.ToString("F2", CultureInfo.InvariantCulture)}");
-        Console.ReadLine();
     }
 }
