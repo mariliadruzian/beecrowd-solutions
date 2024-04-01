@@ -9,11 +9,11 @@ class Bee1009
 {
     static void Main(string[] args)
     {
-        // Declaração de variáveis
+        // Variáveis
         string vendedor;
         double salarioFixo, totalVendas, salarioTotal;
 
-        // Entrada de dados
+        // Entrada
         vendedor = Console.ReadLine();
         salarioFixo = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
         totalVendas = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
