@@ -8,7 +8,7 @@ class Bee1018
 {
     static void Main(string[] args)
     {
-        // Declaração de variáveis
+        // Variáveis
         int N, resto, _cem, _cinquenta, _vinte, _dez, _cinco, _dois, _um;
 
         // Entrada
