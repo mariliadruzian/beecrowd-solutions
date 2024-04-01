@@ -8,13 +8,13 @@ class Bee1016
 {
     static void Main(string[] args)
     {
-        // Taxa constante de distanciamento: 2 minutos
+        // Taxa de distanciamento: 2 minutos
         int taxaDistanciamento = 2;
 
         // Entrada
         int distancia = int.Parse(Console.ReadLine());
 
-        // Calculo do tempo necessário
+        // Cálculo do tempo necessário
         int tempoNecessario = distancia * taxaDistanciamento;
 
         // Saída
