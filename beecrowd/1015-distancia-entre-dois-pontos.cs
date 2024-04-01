@@ -10,7 +10,7 @@ class Bee1015
 {
     static void Main(string[] args)
     {
-        // Declaração de variáveis
+        // Variáveis
         double x1, x2, y1, y2, distancia;
 
         // Entrada
