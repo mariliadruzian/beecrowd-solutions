@@ -26,6 +26,5 @@ class Bee1010
 
         // Saída
         Console.WriteLine($"VALOR A PAGAR: R$ {total.ToString("F2", CultureInfo.InvariantCulture)}");
-        Console.ReadLine();
     }
 }
