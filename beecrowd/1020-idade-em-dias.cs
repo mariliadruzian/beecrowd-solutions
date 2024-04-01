@@ -4,12 +4,11 @@
 // Entrada: O arquivo de entrada contém um valor inteiro.
 // Saída: Imprima a saída conforme exemplo fornecido.
 
-
 class Bee1020
 {
     static void Main(string[] args)
     {
-        // Declaração de variáveis
+        // Variáveis
         int idadeEmDias, anos, meses, dias, resto;
 
         // Entrada
