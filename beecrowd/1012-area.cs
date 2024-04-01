@@ -20,7 +20,7 @@ class Bee1012
         string[] vet;
         double A, B, C, pi = 3.14159, areaTrianguloRet, areaCirculo, areaTrapezio, areaQuadrado, areaRetangulo;
 
-        // Entrada de dados
+        // Entrada
         vet = Console.ReadLine().Split(' ');
         A = double.Parse(vet[0], CultureInfo.InvariantCulture);
         B = double.Parse(vet[1], CultureInfo.InvariantCulture);
