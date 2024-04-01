@@ -9,7 +9,7 @@ class Bee1006
 {
     static void Main(string[] args)
     {
-        // Declaração de variáveis
+        // Variáveis
         double A, B, C, media;
         int pesoA = 2, pesoB = 3, pesoC = 5;
 
