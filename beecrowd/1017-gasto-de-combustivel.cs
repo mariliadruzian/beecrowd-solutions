@@ -13,10 +13,10 @@ class Bee1017
         int tempoGasto = int.Parse(Console.ReadLine());
         int velocidadeMedia = int.Parse(Console.ReadLine());
 
-        // Calculo da distância
+        // Cálculo
         int distancia = tempoGasto * velocidadeMedia;
 
-        // Calculo da quantidade de litros necessários para a viagem
+        // Cálculo da quantidade de litros necessários para a viagem
         // Aqui podemos fazer o casting colocando o (double) para reafirmar o tipo da variável ou colocar 12.0
         double litrosNecessarios = (double) distancia / 12;
 
