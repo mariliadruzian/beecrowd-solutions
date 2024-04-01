@@ -17,7 +17,7 @@ class Bee1061
 {
     static void Main(string[] args)
     {
-        // Declaração de variáveis
+        // Variáveis
         int iniDia, iniHora, iniMinuto, iniSegundo; // Armazena a data inicial do evento
         int fimDia, fimHora, fimMinuto, fimSegundo; // Armazena a data final do evento
         int totalDia, totalHora, totalMin, totalSeg; // Armazena a duração do evento
