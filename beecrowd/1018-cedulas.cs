@@ -26,8 +26,7 @@ class Bee1018
         _cinco = resto / 5;
         resto = resto % 5;
         _dois = resto / 2;
-        resto = resto % 2;
-        _um = resto / 1;
+        _um = resto % 2;
 
         // Saída
         Console.WriteLine($"{N}");
