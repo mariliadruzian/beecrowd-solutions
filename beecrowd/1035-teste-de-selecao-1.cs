@@ -19,10 +19,10 @@ class Bee1035
         // Entrada
         // O vetor vai pegar os dados inseridos na mesma linha e alocar nas posições 0, 1, 2, 3 
         valores = Console.ReadLine().Split(' ');
-        a = int.Parse(vet[0]);
-        b = int.Parse(vet[1]);
-        c = int.Parse(vet[2]);
-        d = int.Parse(vet[3]);
+        a = int.Parse(valores[0]);
+        b = int.Parse(valores[1]);
+        c = int.Parse(valores[2]);
+        d = int.Parse(valores[3]);
 
         // Condicional
         if (b > c && d > a && (c + d) > (a + b) && c > 0 && d > 0 && a % 2 == 0)
