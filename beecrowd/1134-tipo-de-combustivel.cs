@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Bee1134
 {
@@ -22,29 +22,19 @@ class Bee1134
             if (codigo == 1)
             {
                 alcool++;
-                codigo = int.Parse(Console.ReadLine());
-                while (codigo < 1 || codigo > 4)
-                {
-                    codigo = int.Parse(Console.ReadLine());
-                }
             }
             else if (codigo == 2)
             {
                 gasolina++;
-                codigo = int.Parse(Console.ReadLine());
-                while (codigo < 1 || codigo > 4)
-                {
-                    codigo = int.Parse(Console.ReadLine());
-                }
             }
             else if (codigo == 3)
             {
                 diesel++;
+            }
+            codigo = int.Parse(Console.ReadLine());
+            while (codigo < 1 || codigo > 4)
+            {
                 codigo = int.Parse(Console.ReadLine());
-                while (codigo < 1 || codigo > 4)
-                {
-                    codigo = int.Parse(Console.ReadLine());
-                }
             }
         }
 
