@@ -18,7 +18,7 @@ class Bee1159
                 soma = x + (x + 2) + (x + 4) + (x + 6) + (x + 8);
                 Console.WriteLine(soma);
             }
-            else // Verifica se o número é ímpar
+            else
             {
                 x++;
                 soma = x + (x + 2) + (x + 4) + (x + 6) + (x + 8);
