@@ -13,12 +13,12 @@ class Bee1159
         // Estrutura
         while (x != 0)
         {
-            if (x % 2 == 0) // Define número par
+            if (x % 2 == 0) // Verifica se o número é par
             {
                 soma = x + (x + 2) + (x + 4) + (x + 6) + (x + 8);
                 Console.WriteLine(soma);
             }
-            else // Define número ímpar
+            else // Verifica se o número é ímpar
             {
                 x++;
                 soma = x + (x + 2) + (x + 4) + (x + 6) + (x + 8);
