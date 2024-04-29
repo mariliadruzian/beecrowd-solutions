@@ -36,7 +36,7 @@ class Bee1131
 
             Console.WriteLine("Novo grenal (1-sim 2-nao)");
             novoGrenal = int.Parse(Console.ReadLine());
-
+            
             while (novoGrenal != 1 && novoGrenal != 2)
             {
                 Console.WriteLine("Novo grenal (1-sim 2-nao)");
