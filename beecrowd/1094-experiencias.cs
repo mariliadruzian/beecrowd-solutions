@@ -5,7 +5,6 @@ class Bee1094
 {
     static void Main(string[] args)
     {
-        // Variáveis
         int n, i, qtde, total;
         int c = 0;
         int r = 0;
@@ -14,7 +13,6 @@ class Bee1094
         char cobaia;
         string[] vet;
 
-        // Entrada
         n = int.Parse(Console.ReadLine());
 
         for (i = 1; i <= n; i++)
