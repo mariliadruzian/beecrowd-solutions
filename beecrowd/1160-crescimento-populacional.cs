@@ -26,7 +26,7 @@ class Bee1160
                 totalAnos++;
             }
 
-            //Saída
+            // Saída
             if (totalAnos > 100)
             {
                 Console.WriteLine("Mais de 1 seculo.");
